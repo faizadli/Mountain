@@ -13,6 +13,12 @@
 		A9E36463261FF3CE00B8DDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E36462261FF3CE00B8DDE1 /* Assets.xcassets */; };
 		A9E36466261FF3CE00B8DDE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E36465261FF3CE00B8DDE1 /* Preview Assets.xcassets */; };
 		A9E36469261FF3CE00B8DDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E36467261FF3CE00B8DDE1 /* LaunchScreen.storyboard */; };
+		A9E36478261FF75D00B8DDE1 /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E36477261FF75D00B8DDE1 /* Mountain.swift */; };
+		A9E3647B261FF7BF00B8DDE1 /* DummyMountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3647A261FF7BF00B8DDE1 /* DummyMountains.swift */; };
+		A9E3647F261FF81A00B8DDE1 /* MountainList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3647E261FF81A00B8DDE1 /* MountainList.swift */; };
+		A9E36483261FF82C00B8DDE1 /* MountainDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E36482261FF82C00B8DDE1 /* MountainDetail.swift */; };
+		A9E3648B261FFB9000B8DDE1 /* MountainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3648A261FFB9000B8DDE1 /* MountainRow.swift */; };
+		A9E3648E261FFDB100B8DDE1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E3648D261FFDB100B8DDE1 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		A9E36465261FF3CE00B8DDE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9E36468261FF3CE00B8DDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9E3646A261FF3CE00B8DDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E36477261FF75D00B8DDE1 /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
+		A9E3647A261FF7BF00B8DDE1 /* DummyMountains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyMountains.swift; sourceTree = "<group>"; };
+		A9E3647E261FF81A00B8DDE1 /* MountainList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainList.swift; sourceTree = "<group>"; };
+		A9E36482261FF82C00B8DDE1 /* MountainDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDetail.swift; sourceTree = "<group>"; };
+		A9E3648A261FFB9000B8DDE1 /* MountainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainRow.swift; sourceTree = "<group>"; };
+		A9E3648D261FFDB100B8DDE1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,9 @@
 		A9E3645B261FF3CB00B8DDE1 /* Mountain */ = {
 			isa = PBXGroup;
 			children = (
-				A9E3645C261FF3CB00B8DDE1 /* AppDelegate.swift */,
-				A9E3645E261FF3CB00B8DDE1 /* SceneDelegate.swift */,
-				A9E36460261FF3CB00B8DDE1 /* ContentView.swift */,
+				A9E36471261FF6D400B8DDE1 /* Base */,
+				A9E36472261FF70A00B8DDE1 /* Model */,
+				A9E3647D261FF7DD00B8DDE1 /* View */,
 				A9E36462261FF3CE00B8DDE1 /* Assets.xcassets */,
 				A9E36467261FF3CE00B8DDE1 /* LaunchScreen.storyboard */,
 				A9E3646A261FF3CE00B8DDE1 /* Info.plist */,
@@ -73,6 +85,36 @@
 				A9E36465261FF3CE00B8DDE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9E36471261FF6D400B8DDE1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A9E3645C261FF3CB00B8DDE1 /* AppDelegate.swift */,
+				A9E3645E261FF3CB00B8DDE1 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A9E36472261FF70A00B8DDE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9E36477261FF75D00B8DDE1 /* Mountain.swift */,
+				A9E3647A261FF7BF00B8DDE1 /* DummyMountains.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9E3647D261FF7DD00B8DDE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9E36460261FF3CB00B8DDE1 /* ContentView.swift */,
+				A9E3647E261FF81A00B8DDE1 /* MountainList.swift */,
+				A9E36482261FF82C00B8DDE1 /* MountainDetail.swift */,
+				A9E3648A261FFB9000B8DDE1 /* MountainRow.swift */,
+				A9E3648D261FFDB100B8DDE1 /* Profile.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E3647B261FF7BF00B8DDE1 /* DummyMountains.swift in Sources */,
+				A9E36478261FF75D00B8DDE1 /* Mountain.swift in Sources */,
+				A9E36483261FF82C00B8DDE1 /* MountainDetail.swift in Sources */,
+				A9E3647F261FF81A00B8DDE1 /* MountainList.swift in Sources */,
 				A9E3645D261FF3CB00B8DDE1 /* AppDelegate.swift in Sources */,
 				A9E3645F261FF3CB00B8DDE1 /* SceneDelegate.swift in Sources */,
 				A9E36461261FF3CB00B8DDE1 /* ContentView.swift in Sources */,
+				A9E3648E261FFDB100B8DDE1 /* Profile.swift in Sources */,
+				A9E3648B261FFB9000B8DDE1 /* MountainRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
